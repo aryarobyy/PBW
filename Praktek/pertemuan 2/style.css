@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.category {
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #222;
+}
+
+.author {
+    font-size: 14px;
+    text-align: center;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.daftar-isi {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.daftar-isi h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.daftar-isi ul {
+    list-style: none;
+    padding: 0;
+}
+
+.daftar-isi ul li {
+    margin: 5px 0;
+}
+
+.daftar-isi ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 22px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.first-letter {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+strong {
+    color: #d35400;
+}
+
+.citation {
+    font-style: italic;
+    color: #555;
+    text-align: left;
+}
