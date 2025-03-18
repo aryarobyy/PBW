@@ -1,0 +1,13 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    justify-items: center; 
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+img {
+width: 200px;
+height: auto;
+}
