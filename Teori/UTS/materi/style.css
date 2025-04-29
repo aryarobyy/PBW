@@ -1,0 +1,228 @@
+/* Global Styles */
+body {
+background-color: #0d0d0d;
+color: #f1f1f1;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+/* Prime Number Checker Section */
+#prime-check {
+width: 600px;
+margin: 60px auto;
+padding: 30px;
+border-radius: 5px;
+background-color: #1a1a1a;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#prime-check h2 {
+text-align: center;
+margin-bottom: 20px;
+color: #fff;
+}
+
+.form-group {
+margin-bottom: 15px;
+}
+
+.form-group label {
+display: block;
+font-weight: bold;
+margin-bottom: 5px;
+color: #ddd;
+}
+
+.form-group input,
+.form-group textarea {
+width: 100%;
+padding: 10px;
+background-color: #333;
+color: #f1f1f1;
+border: 1px solid #555;
+border-radius: 4px;
+}
+
+button[type="submit"] {
+background: #0056b3;
+color: #fff;
+padding: 10px 20px;
+border: none;
+width: 100%;
+border-radius: 4px;
+cursor: pointer;
+margin-top: 10px;
+display: block;
+transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+background: #222;
+}
+
+#resultArea {
+max-height: 300px;
+overflow-y: auto;
+padding: 10px;
+background-color: #333;
+border: 1px solid #555;
+border-radius: 4px;
+margin-top: 20px;
+color: #f1f1f1;
+}
+
+/* While and Do...While Example Section */
+#loop-example {
+width: 600px;
+margin: 60px auto;
+padding: 30px;
+border-radius: 5px;
+background-color: #1a1a1a;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#loop-example h2 {
+text-align: center;
+margin-bottom: 20px;
+color: #fff;
+}
+
+#loop-example .form-group {
+margin-bottom: 15px;
+}
+
+#loop-example .form-group label {
+display: block;
+font-weight: bold;
+margin-bottom: 5px;
+color: #ddd;
+}
+
+#loop-example .form-group input {
+width: 100%;
+padding: 10px;
+background-color: #333;
+color: #f1f1f1;
+border: 1px solid #555;
+border-radius: 4px;
+}
+
+#loop-example button[type="submit"] {
+background: #0056b3;
+color: #fff;
+padding: 10px 20px;
+border: none;
+width: 100%;
+border-radius: 4px;
+cursor: pointer;
+margin-top: 10px;
+display: block;
+transition: background-color 0.3s ease;
+}
+
+#loop-example button[type="submit"]:hover {
+background: #222;
+}
+
+#resultContainer {
+max-height: 300px;
+overflow-y: auto;
+padding: 10px;
+background-color: #333;
+border: 1px solid #555;
+border-radius: 4px;
+margin-top: 20px;
+color: #f1f1f1;
+}
+
+.materi-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+max-width: 900px;
+margin: 30px auto;
+padding: 0 20px;
+justify-items: center;
+}
+
+.program {
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #1a1a1a; 
+color: #f1f1f1;
+border: 1px solid #555;
+padding: 10px;
+border-radius: 10px;
+text-decoration: none;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+transition: 0.3s;
+width: 100%; /* Agar lebar menyesuaikan kolom grid */
+max-width: 280px; /* Batas maksimal lebar card */
+text-align: center;
+}
+
+.program img {
+width: 100%;
+height: 150px;
+object-fit: cover;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+
+.program h2 {
+margin: 10px 0;
+font-size: 18px;
+color: #fff;
+}
+
+.program p {
+font-size: 14px;
+color: #ccc;
+}
+
+.program:hover {
+transform: scale(1.05);
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive for medium screens */
+@media (max-width: 768px) {
+.form-group input,
+.form-group textarea,
+button[type="submit"] {
+    width: 100%;
+}
+
+.materi-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 0 10px;
+}
+}
+
+/* Responsive for small screens */
+@media (max-width: 480px) {
+.materi-container {
+    grid-template-columns: 1fr; /* Single column on small screens */
+    gap: 10px;
+    padding: 0 5px;
+    justify-content: center;
+}
+
+.program {
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+}
+
+/* Optional Footer (if you have one) */
+.footer {
+text-align: center;
+padding: 1rem 0;
+background-color: #111E4E;
+color: white;
+margin-top: 1rem;
+}

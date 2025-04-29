@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Materi - Cek Bilangan Prima</title>
+  <link rel="stylesheet" href="/navbar/navbar.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="navbar">
+    <nav class="nav-container">
+      <div class="nav-content">
+        <ul class="nav-menu">
+          <a href="../index.html" class="nav-link"><li class="nav-item">Home</li></a>
+          <a href="../contact/contact.html" class="nav-link"><li class="nav-item">Contact</li></a>
+          <a href="../about/about.html" class="nav-link"><li class="nav-item">About</li></a>
+          <a href="#" class="nav-link active"><li class="nav-item">Materi</li></a>
+          <li class="nav-indicator"></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <section id="prime-check">
+    <h2>Cek Bilangan Prima 0 sampai n</h2>
+    <form id="primeForm">
+      <div class="form-group">
+        <label for="numberInput">Masukkan Nomer:</label>
+        <input type="number" id="numberInput" name="numberInput" required>
+      </div>
+      <button type="submit">Cek Hasil</button>
+    </form>
+    <div id="resultArea">
+      <p id="result"></p>
+    </div>
+  </section>
+
+  <section id="loop-example">
+    <h2></h2>
+    <form id="whileDoForm">
+      <div class="form-group">
+        <label for="inputNumber">Masukkan bilangan bulat positif:</label>
+        <input type="number" id="inputNumber" name="inputNumber" required min="1">
+      </div>
+      <button type="submit">Cek Hasil</button>
+    </form>
+    <div id="resultContainer">
+      <p id="whileResult"></p>
+      <p id="doWhileResult"></p>
+    </div>
+  </section>
+
+  <div class="materi-container">
+    <a href="https://github.com/aryarobyy/PBW/tree/main/Teori/Pertemuan%201" class="program">
+        <img src="../assets/htmlcss.jpg" alt="Program 1">
+        <h2>HTML & CSS </h2>
+        <p>Saya mempelajari ini pada pertemuan 1.</p>
+    </a>
+    <a href="https://github.com/aryarobyy/PBW/tree/main/Teori/Pertemuan%202" class="program">
+        <img src="../assets/js.png" alt="pertemuan 2">
+        <h2>Javascript</h2>
+        <p>Saya mempelajari ini pada pertemuan 2.</p>
+    </a>
+    <a href="https://github.com/aryarobyy/PBW/tree/main/Teori/Pertemuan%204" class="program">
+        <img src="../assets/php.png" alt="pertemuan 3">
+        <h2> PHP </h2>
+        <p>Saya mempelajari ini pada pertemuan 3.</p>
+    </a>
+    <a href="/UTS/program/Branching.php" class="program">
+        <img src="../assets/branch.jpg" alt="pertemuan 4">
+        <h2>Branching</h2>
+        <p>Saya mempelajari ini pada pertemuan 4.</p>
+    </a>
+    <a href="#prime-check" class="program">
+        <img src="../assets/loop.jpg" alt="pertemuan 5">
+        <h2>Looping</h2>
+        <p>Saya mempelajari ini pada pertemuan 5.</p>
+    </a>
+    <a href="https://github.com/aryarobyy/PBW/blob/main/Teori/Pertemuan%209/index.php" class="program">
+        <img src="../assets/array.jpg" alt="pertemuan 6">
+        <h2> Array </h2>
+        <p>Saya mempelajari ini pada pertemuan 6.</p>
+    </a>
+</div>
+
+  <script src="../navbar/navbar.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

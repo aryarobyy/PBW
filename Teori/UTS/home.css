@@ -1,0 +1,85 @@
+.main-content {
+  flex: 1;
+  padding: 0 16px;
+}
+
+.hero-section {
+  padding-top: 80px;
+  margin-top: 20px;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1fr 1fr; 
+  }
+}
+
+
+.hero-text {
+  text-align: center;
+  justify-self: center;
+}
+
+.hero-title {
+  margin-bottom: 16px;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #f30bff, #3fc0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-intro {
+  color: #aaa;
+}
+
+.hero-subtitle {
+  color: #adb7be;
+  font-size: 1rem;
+  margin-bottom: 24px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 12px 24px;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 9999px;
+  margin-right: 16px;
+  background: linear-gradient(to bottom right, #7E99A3, #4C585B);
+  color: white;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.contact-button:hover {
+  background-color: #333;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 50%;
+}
